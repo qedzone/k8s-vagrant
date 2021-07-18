@@ -5,21 +5,60 @@ provider "aws" {
 locals {
   # adjust cluster lists based on your needs
   clusters = {
-    cluster1 = {
+    cluster-empty1 = {
       allowed_cidr_blocks = "0.0.0.0/0",
     },
-    cluster2 = {
-      allowed_cidr_blocks = "0.0.0.0/0",
-    },
-    cluster3 = {
-      allowed_cidr_blocks = "0.0.0.0/0",
-    },
-    cluster4 = {
-      allowed_cidr_blocks = "0.0.0.0/0",
-    },
-    cluster5 = {
-      allowed_cidr_blocks = "0.0.0.0/0",
-    },
+    # cluster-empty2 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty3 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty4 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty5 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty6 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty7 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty8 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty9 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty10 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty11 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty12 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty13 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty14 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty15 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty16 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty17 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
+    # cluster-empty18 = {
+    #   allowed_cidr_blocks = "0.0.0.0/0",
+    # },
   }
 }
 

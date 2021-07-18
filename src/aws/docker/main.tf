@@ -98,9 +98,9 @@ resource "aws_security_group_rule" "allow_all_out" {
 
 module "dockerhost" {
   // Specify how many dockerhosts to deploy
-  count = 15
+  count = 1
   source          = "./dockerhost_module"
-  dockerhost-name = "cluster${count.index + 1}"
+  dockerhost-name = "dockerhost-${count.index + 1}"
 
   aws_subnet_id = aws_subnet.main.id
 

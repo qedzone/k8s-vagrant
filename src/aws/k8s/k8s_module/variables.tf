@@ -17,7 +17,7 @@ variable "az" {
 }
 
 variable "instance-ami" {
-  default     = "ami-0e0102e3ff768559b"
+  default     = "ami-0c259a97cbf621daf"
   description = "Which ami is used"
 }
 

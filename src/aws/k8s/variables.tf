@@ -1,3 +1,6 @@
+variable "region" {
+  default = "eu-west-1"
+}
 
 variable "az" {
   default = "a"
